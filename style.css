@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(167,76,190,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#p1{
+    margin-top: 50px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.head h1{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.box input{
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+.box button{
+    height: 40px;
+    font-size: medium;
+    width: 80px;
+    margin-left: 20px;
+    text-align: center;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 1px;
+}
